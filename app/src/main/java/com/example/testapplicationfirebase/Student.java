@@ -4,7 +4,7 @@ public class Student {
     private String ID;
     private String name;
     private String address;
-    private String conNo;
+    private int conNo;
 
     public Student() {
     }
@@ -33,11 +33,11 @@ public class Student {
         this.address = address;
     }
 
-    public String getConNo() {
+    public int getConNo() {
         return conNo;
     }
 
-    public void setConNo(String conNo) {
+    public void setConNo(int conNo) {
         this.conNo = conNo;
     }
 }
